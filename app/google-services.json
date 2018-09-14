@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "125045139127",
+    "firebase_url": "https://quarter-7c34a.firebaseio.com",
+    "project_id": "quarter-7c34a",
+    "storage_bucket": "quarter-7c34a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125045139127:android:c415be4bdb4bc267",
+        "android_client_info": {
+          "package_name": "com.techhog.quater"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125045139127-bc4v5st0u3h0p41knp2443nc8safhk7s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techhog.quater",
+            "certificate_hash": "2ce0d0d2a7cd16e2a78abd682b3da8d1c6efed69"
+          }
+        },
+        {
+          "client_id": "125045139127-u8had83vfsbspqjbleebss7u7c84d6u2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF58rqABbu-T_anXtvbXJULarJw3JoVpM"
+        },
+        {
+          "current_key": "AIzaSyAF58rqABbu-T_anXtvbXJULarJw3JoVpM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125045139127-u8had83vfsbspqjbleebss7u7c84d6u2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
