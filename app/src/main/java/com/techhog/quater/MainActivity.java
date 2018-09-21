@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.w(TAG, "Google sign in failed", e);
                 // ...
             }
+            openActivity();
         }
     }
 
@@ -105,7 +106,6 @@ public class MainActivity extends AppCompatActivity {
                             Log.d(TAG, "signInWithCredential:success");
                             FirebaseUser user = mAuth.getCurrentUser();
                             updateUI(user);
-                            openActivity();
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithCredential:failure", task.getException());
@@ -131,7 +131,6 @@ public class MainActivity extends AppCompatActivity {
             Uri personPhoto = acct.getPhotoUrl();
 
             Toast.makeText(this,"Name of the user:" + personName + "user if id:" + personId,Toast.LENGTH_SHORT).show();
-            openActivity();
         }
     }
 
